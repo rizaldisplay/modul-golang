@@ -54,4 +54,10 @@ func main() {
 
 	fmt.Println("From Slice:", fromSlice)
 	fmt.Println("To Slice:", toSlice)
+
+	iniArray := [...]int{1, 2, 3, 4, 5}
+	iniSlice := []int{1, 2, 3, 4, 5}
+
+	fmt.Println("Array:", iniArray)
+	fmt.Println("Slice:", iniSlice)
 }
